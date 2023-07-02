@@ -1,0 +1,10 @@
+
+.navbar {
+	position: absolute;
+	width: 100%;
+	top: 0px;
+	right: 0px;
+	left: 0px;
+	height: 80px;
+	background-color: transparent;
+}
