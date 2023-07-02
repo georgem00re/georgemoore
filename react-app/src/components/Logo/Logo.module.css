@@ -6,9 +6,9 @@
 
 .container {
 	background-color: transparent;
-	height: 80px;
-	width: 80px;
+	height: 70px;
+	width: 70px;
 	overflow: hidden;
 	border-style: none;
-	margin-left: 20px;
+	margin-left: 10px;
 }
