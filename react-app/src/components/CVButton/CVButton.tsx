@@ -1,11 +1,11 @@
 
 import styles from "./CVButton.module.css";
-import { IoDocument } from "react-icons/IO";
+import { IoMdDocument } from "react-icons/io";
 
 export default function CVButton() {
 	return (
 		<button className={styles.button}>
-			<IoDocument size="50px"/>
+			<IoMdDocument size="25px" color="#262626"/>
 		</button>
 	)
 }
