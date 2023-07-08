@@ -1,8 +1,7 @@
-import styles from "./LandingPage.module.css";
+import * as styles from "./LandingPage.module.css";
 import Canvas from "../../components/Canvas/Canvas";
 import Sprite from "../../components/Sprite/Sprite";
 import NavigationBar from "../../components/NavigationBar/NavigationBar";
-import NameCard from "../../components/NameCard/NameCard";
 import GitHubButton from "../../components/GitHubButton/GitHubButton";
 import LinkedInButton from "../../components/LinkedInButton/LinkedInButton";
 import CVButton from "../../components/CVButton/CVButton";

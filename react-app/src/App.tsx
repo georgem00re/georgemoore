@@ -1,4 +1,3 @@
-import { Fragment } from "react";
 import LandingPage from "./pages/LandingPage/LandingPage.tsx";
 
 export default function App() {
