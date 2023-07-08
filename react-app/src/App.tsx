@@ -6,8 +6,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" exact element={<LandingPage/>}/>
-        <Route path="/contact" exact element ={<ContactPage/>}/>
+        <Route path="/" element={<LandingPage/>}/>
+        <Route path="/contact" element ={<ContactPage/>}/>
       </Routes>
     </BrowserRouter>
   )
