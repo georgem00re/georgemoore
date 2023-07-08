@@ -1,6 +1,14 @@
 import LandingPage from "./pages/LandingPage/LandingPage.tsx";
 import ContactPage from "./pages/ContactPage/ContactPage.tsx";
+import { Route, BrowserRouter, Routes } from "react-router-dom";
 
 export default function App() {
-  return <ContactPage/>
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" exact element={<LandingPage/>}/>
+        <Route path="/contact" exact element ={<ContactPage/>}/>
+      </Routes>
+    </BrowserRouter>
+  )
 }
