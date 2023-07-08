@@ -1,0 +1,14 @@
+
+.logo {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	background-color: transparent;
+	height: 70px;
+	width: 70px;
+	overflow: hidden;
+	border-style: none;
+	margin-left: 10px;
+}
