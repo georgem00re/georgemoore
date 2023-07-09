@@ -27,7 +27,7 @@ export default function SideBar() {
 	})
 
 	return (
-		<div className={styles.container}>
+		<header className={styles.container}>
 			<div style={{ display: "flex", justifyContent: "center", alignItems: "center", flexDirection: "column" }}>
 				<h1 className={styles.header}>George Moore</h1>
 				<Sprite/>
@@ -51,6 +51,6 @@ export default function SideBar() {
 				{colorButtons}
 			</ColorButtonContainer>
 			<LightModeButton/>
-		</div>
+		</header>
 	)
 }

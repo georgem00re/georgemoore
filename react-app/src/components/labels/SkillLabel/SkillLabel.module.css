@@ -1,0 +1,19 @@
+
+.container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	margin: 0px;
+	padding: 0px;
+	font-family: "Avenir Heavy";
+	font-size: 18px;
+	margin: 20px;
+	width: fit-content;
+}
+
+.container p {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 10px;
+}
