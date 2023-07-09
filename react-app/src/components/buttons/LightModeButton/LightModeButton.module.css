@@ -1,0 +1,21 @@
+
+.button {
+	width: 70px;
+	margin: 0px;
+	display: flex;
+	border-radius: 1000px;
+	padding: 5px;
+	border-style: none;
+	cursor: pointer;
+	box-shadow: 1px 1px black;
+}
+
+.circle {
+	background-color: white;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 18px;
+	padding: 5px;
+}

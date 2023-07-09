@@ -1,0 +1,16 @@
+
+.sprite {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	background-color: #B8A3E0;
+	height: 150px;
+	width: 150px;
+	border-radius: 50%;
+	overflow: hidden;
+	border-style: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}

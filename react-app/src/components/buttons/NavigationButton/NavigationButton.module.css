@@ -1,0 +1,29 @@
+
+.button {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: row;
+	padding: 3px;
+	color: #BDBfC4;
+	background-color: transparent;
+	border-style: none;
+	cursor: pointer;
+	font-family: "Avenir Heavy";
+	vertical-align: middle;
+	margin: 10px;
+}
+
+.button, .text {
+	font-size: 18px;
+}
+
+.button:hover {
+	color: white;
+}
+
+.text {
+	margin: 0px;
+	padding: 0px;
+	margin-left: 7px;
+}

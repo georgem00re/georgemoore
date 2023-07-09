@@ -1,0 +1,27 @@
+
+.container {
+	margin: 0px;
+	padding: 50px;
+	margin-left: 300px;
+	font-family: "Avenir";
+}
+
+.container h1, .container h2, .container p {
+	margin: 0px;
+	padding: 0px;
+}
+
+.container h1 {
+	font-size: 40px;
+	font-family: "Avenir Black";
+}
+
+.container h2 {
+	font-size: 25px;
+	font-family: "Avenir Light";
+}
+
+.container p {
+	margin-top: 10px;
+	font-family: "Avenir Light";
+}
