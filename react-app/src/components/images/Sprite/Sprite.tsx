@@ -1,6 +1,6 @@
 
 import styles from "./Sprite.module.css";
-import SpriteSVG from "../../assets/sprite.svg";
+import SpriteSVG from "../../../assets/sprite.svg";
 
 export default function Sprite() {
 	return (
