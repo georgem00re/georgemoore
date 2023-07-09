@@ -6,6 +6,9 @@ import NavigationButtonContainer from "../../containers/NavigationButtonContaine
 import SocialButton from "../../buttons/SocialButton/SocialButton";
 import SocialButtonContainer from "../../containers/SocialButtonContainer/SocialButtonContainer";
 import LightModeButton from "../../buttons/LightModeButton/LightModeButton";
+import ColorButtonContainer from "../../containers/ColorButtonContainer/ColorButtonContainer";
+import ColorButton from "../../buttons/ColorButton/ColorButton";
+
 import { BsFillPersonFill } from "react-icons/bs";
 import { AiFillProject, AiFillGithub, AiFillStar, AiFillInstagram } from "react-icons/ai";
 import { HiDocumentText } from "react-icons/hi";
@@ -17,6 +20,11 @@ import { FaRedditAlien } from "react-icons/fa"
 export default function SideBar() {
 
 	const para = "Hi, my name is George Moore and I'm a junior software engineer. Welcome to my personal website!"
+	const colors = ["#54B689", "#5BC3D5", "#3B7EEB", "#5ECCA9", "#EEA73B", "#5469C9", "#5D6BA7", "#6C51A4", "#D67553", "#5FCB71"]
+
+	const colorButtons = colors.map((element, index) => {
+		return <ColorButton key={index} color={element}/>
+	})
 
 	return (
 		<div className={styles.container}>
@@ -39,6 +47,9 @@ export default function SideBar() {
 				<NavigationButton text="Curriculum Vitae" icon={<HiDocumentText/>}/>
 				<NavigationButton text="Get in Touch" icon={<MdEmail/>}/>
 			</NavigationButtonContainer>
+			<ColorButtonContainer>
+				{colorButtons}
+			</ColorButtonContainer>
 			<LightModeButton/>
 		</div>
 	)
